@@ -39,13 +39,17 @@ header
 {
     background-color: black; 
     padding: 0 14px !important;
+    
+
    
 }
  a.nav-item.nav-link.active
 {
     color: white !important;
     font-size:17px;
-    padding:0 20px ;
+    padding:4px 20px ;
+    letter-spacing: 1px;
+    min-height: 35px !important;
 }
  .collapse > .navbar-nav > a.nav-item.nav-link.active:hover
 {
@@ -73,6 +77,8 @@ header
     background-color: white !important;
     justify-content: center !important;
     align-items: center !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .jumbotron > .container > .display-15 + .lead em
@@ -82,5 +88,27 @@ header
 h3
 {
     border-bottom: 3px solid #E0CEB5;
+    margin: 40px 0 !important;
+}
+.card-deck
+{
+     
+    margin: 0 auto !important;
+}
+.card
+{
+   
+    margin: 0 10px;
+    border: 0 !important;
+    justify-content: center;
+}
+.card-img-top
+{
+   
+}
+.card-title
+{
     
+    color:#E0CEB5;
+    font-size: 26px;
 }
