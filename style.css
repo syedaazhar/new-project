@@ -1,0 +1,157 @@
+body
+{
+    margin: 0;
+}
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+main
+{
+    display: flex !important;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    height:100px ;
+}
+.img
+{
+    width: 98px;
+    height: 74px;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    
+}
+.navbar
+{
+    background-color: black; 
+   
+}
+ a.nav-item.nav-link.active
+{
+    color: white !important;
+}
+ .collapse > .navbar-nav > a.nav-item.nav-link.active:hover
+{
+    color:  #E0CEB5 !important;
+}
+.navbar-toggler-icon
+{
+    color: white !important;
+}
+.collapse 
+{
+    justify-content: space-around;
+}
+.card
+{
+    border: none !important;
+}
+.card-img
+{
+    border-radius:0px !important;
+} 
+.title
+{
+    justify-content: center;
+    margin: 30px;
+}
+.title > h3
+{
+    text-align: center;
+}
+article
+{
+    margin: 50px;
+}
+.card-deck
+{
+    /* margin: 8px !important; */
+    justify-content: center ;
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.img-fluid
+{
+    /* width:341px; */
+    min-width:240px !important;
+    height:260px !important;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}  
+.card-deck > .card.img-fluid strong
+{
+    margin-top: 116px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    display: none;
+   
+}   
+.card-deck > .card.img-fluid:hover strong
+{
+    display: inline;
+}
+.card-deck > .card.img-fluid:hover 
+{
+   opacity: 0.9;
+   =
+}
+.follow-us
+{
+    background-color: #ded1c3 !important;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+.follow-us > h5 
+{
+    font-size: 16px;
+    text-align: center;
+}
+.follow-us a
+{
+    text-decoration: underline;
+    color: black !important;
+}
+ footer .follow-us > h5 em a:hover 
+{
+    color: black !important ;
+}
+.info
+{
+    background-color: #555;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 13px;
+}
+.info > h5
+{
+     color: #fff;
+     font-size: 17px;
+}
+.breadcrumb
+{
+    justify-content: center;
+    margin: 0 !important;
+    background-color: black !important;
+    
+}
+.breadcrumb > .breadcrumb-item > a
+{
+    color: #fff !important;
+    font-size: 15px;
+}
+nav > .breadcrumb > .breadcrumb-item a:hover
+{
+    text-decoration:none; 
+    color: #E0CEB5 !important;
+}
+

@@ -1,0 +1,86 @@
+body
+{
+    margin: 0;
+    text-align: center !important;
+}
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar > .logo > .navbar-brand .logo-img
+{
+    width:20px;
+}
+.logo
+{
+    margin: 0;
+    padding: 0;
+}
+/* main
+{
+    display: flex !important;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    height:100px ;
+} */
+.img
+{
+    width: 98px;
+    height: 74px;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    
+}
+.navbar
+{
+    background-color: black; 
+    padding: 0 14px !important;
+   
+}
+ a.nav-item.nav-link.active
+{
+    color: white !important;
+    font-size:17px;
+    padding:0 20px ;
+}
+ .collapse > .navbar-nav > a.nav-item.nav-link.active:hover
+{
+    color:  #E0CEB5 !important;
+}
+.navbar-toggler-icon
+{
+    color: white !important;
+}
+.collapse 
+{
+    justify-content: space-around;
+}
+.jumbotron > .container > .display-15
+{
+   
+    margin: 18px;
+    font-size: 25px !important;
+}
+.jumbotron, .container
+{
+    display: flex !important;
+    padding: 30px !important;
+    flex-direction: column;
+    background-color: white !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.jumbotron > .container > .display-15 + .lead em
+{
+    font-size: 15px !important;
+}
+h3
+{
+    border-bottom: 3px solid #E0CEB5;
+    
+}
