@@ -18,30 +18,10 @@ header
     margin: 0;
     padding: 0;
 }
-/* main
-{
-    display: flex !important;
-    justify-content: center;
-    background-color: black;
-    align-items: center;
-    height:100px ;
-} */
-.img
-{
-    width: 98px;
-    height: 74px;
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-    
-}
 .navbar
 {
     background-color: black; 
     padding: 0 14px !important;
-    
-
-   
 }
  a.nav-item.nav-link.active
 {
@@ -90,6 +70,13 @@ h3
     border-bottom: 3px solid #E0CEB5;
     margin: 40px 0 !important;
 }
+.contrainer
+{
+    display: flex !important;
+    flex-wrap: wrap; 
+    margin:20px  ;
+    min-width: 250px !important;
+}
 .card-deck
 {
      
@@ -101,10 +88,6 @@ h3
     margin: 0 10px;
     border: 0 !important;
     justify-content: center;
-}
-.card-img-top
-{
-   
 }
 .card  > .card-img-top + .card-body > .card-title
 {
@@ -144,8 +127,14 @@ h3
     height: 630px;
     position: relative;
 }
-.dreambig-container-img, .dreambig-container-img-row
+.dreambig-container > .dreambig-container-column > .dreambig-container-heading  
 {
-    display: flex;
-    justify-content: center;
+    color: #E0CEB5;
+    font-size:46px;
+    font-family: 'Open Sans', sans-serif;
 }
+.dreambig-container
+{
+    margin: 50px 40px 41px ;
+}
+
