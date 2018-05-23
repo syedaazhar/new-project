@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     text-align: center !important;
+   
 }
 header
 {
@@ -130,11 +131,20 @@ h3
 .dreambig-container > .dreambig-container-column > .dreambig-container-heading  
 {
     color: #E0CEB5;
-    font-size:46px;
+    font-size:40px;
     font-family: 'Open Sans', sans-serif;
+    
 }
 .dreambig-container
 {
-    margin: 50px 40px 41px ;
+    margin: 50px 0px 41px ;
+}
+.card > .card-body > .card-title + .author
+{
+    color: #c9c9c9 ;
+    border: 0 !important;
+    padding: 0 !important;
+    width: !important;
+  
 }
 
