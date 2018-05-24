@@ -63,9 +63,9 @@ main
 {
     text-align: center;
 }
-article
+.container
 {
-    margin: 50px;
+  padding: 0 !important;
 }
 .card-deck
 {
@@ -77,13 +77,14 @@ article
 .img-fluid
 {
     /* width:341px; */
-    min-width:240px !important;
+    min-width:330px !important;
+    max-width: 400px !important;
     height:260px !important;
     background-position: center;
     background-size: cover;
-    align-items: center;
-    margin: 20px;
+    margin: 16px;
     cursor: pointer;
+    text-align: center !important;
 }  
 .card-deck > .card.img-fluid strong
 {
