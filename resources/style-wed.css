@@ -80,11 +80,11 @@ header
     min-width: 250px !important;
     justify-content: center !important;
 }
-/* .card-deck
+.card-deck
 {
      
-    margin: 0 auto !important;
-} */
+    margin:  auto !important;
+} 
 .card
 {
    
@@ -189,7 +189,6 @@ header
     color: #adabab;
     font-size: 18px;
     text-align: center;
-    /* display: none; */
     margin-top: 282px;
     font-family: 'Great Vibes', cursive;
 }
