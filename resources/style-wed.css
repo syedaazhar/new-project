@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     text-align: center !important;
+    font-family: 'Bauer Bodoni W01 Roman' !important;
    
 }
 header
@@ -66,29 +67,31 @@ header
 {
     font-size: 15px !important;
 }
-h3
+.Fairytale-Weddings
 {
     border-bottom: 3px solid #E0CEB5;
     margin: 40px 0 !important;
 }
-.contrainer
+.contrainer, .card-deck
 {
     display: flex !important;
     flex-wrap: wrap; 
     margin:20px  ;
     min-width: 250px !important;
+    justify-content: center !important;
 }
-.card-deck
+/* .card-deck
 {
      
     margin: 0 auto !important;
-}
+} */
 .card
 {
    
     margin: 0 10px;
     border: 0 !important;
-    justify-content: center;
+    
+
 }
 .card  > .card-img-top + .card-body > .card-title
 {
@@ -105,9 +108,9 @@ h3
     border-top: 2px solid #bfbfbf !important;
     border-bottom: 2px solid #bfbfbf !important;
     display: inline-block;
-    padding: 10px;
+    padding:7px 17px;
     color: #c9c9c9;
-    width: 60px;
+    
 }
 .main-img > .card-body
 {
@@ -144,7 +147,81 @@ h3
     color: #c9c9c9 ;
     border: 0 !important;
     padding: 0 !important;
-    width: !important;
-  
 }
+ .discover-events
+{
+    display: flex !important;
+    justify-content: space-around !important;
+    color: #bfbfbf;
+     flex-wrap: wrap !important;
+}
+.discover-container > .card-deck
+{
+    display: flex !important;
+    justify-content: space-between !important;
+    color: #bfbfbf;
+    /* flex-wrap: wrap !important; */
+    margin: 30px;
+}
+.discover-container > .discover-more
+{
+    font-size: 35px ;
+}
+.events-img
+{
+    width: 255px;
+    height: 262px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 188px;
+    min-width: 200px !important;
+    max-width:400px !important;
+    margin: 33px 18px;
+}
+
+.events-name-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.events-name
+{
+    color: #adabab;
+    font-size: 18px;
+    text-align: center;
+    /* display: none; */
+    margin-top: 282px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.breadcrumb, .follow-us
+{
+    justify-content: center;
+    margin: 0 !important;
+    background-color: black !important;
+    margin-top: 10px;
+    border-radius: 0 !important;
+    padding-top: 10px !important;
+    
+    
+}
+.breadcrumb > .breadcrumb-item > a
+{
+    color: #fff !important;
+    font-size: 15px;
+}
+nav > .breadcrumb > .breadcrumb-item a:hover
+{
+    text-decoration:none; 
+    color: #E0CEB5 !important;
+}
+.logo
+{
+   width: 23px;
+   margin: 0 6px;
+}
+
+
+
+  
 

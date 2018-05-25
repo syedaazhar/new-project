@@ -67,19 +67,19 @@ main
 {
   padding: 0 !important;
 }
-.card-deck
+.card-deck, container
 {
     /* margin: 8px !important; */
     justify-content: center ;
     display: flex !important;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
 }
 .img-fluid
 {
     /* width:341px; */
-    min-width:330px !important;
-    max-width: 400px !important;
-    height:260px !important;
+    min-width:300px !important;
+    max-width: 450px !important;
+    height:400px !important;
     background-position: center;
     background-size: cover;
     margin: 16px;
@@ -102,26 +102,26 @@ main
 .card-deck > .card.img-fluid:hover 
 {
    opacity: 0.9;
-   =
+   
 }
-.follow-us
+.web-details
 {
     background-color: #ded1c3 !important;
     padding: 10px 0;
     justify-content: center;
     align-items: center;
 }
-.follow-us > h5 
+.web-details > h5 
 {
     font-size: 16px;
     text-align: center;
 }
-.follow-us a
+.web-details a
 {
     text-decoration: underline;
     color: black !important;
 }
- footer .follow-us > h5 em a:hover 
+ footer .web-details > h5 em a:hover 
 {
     color: black !important ;
 }
