@@ -1,0 +1,257 @@
+body
+{
+    margin: 0;
+    text-align: center !important;
+    font-family: 'Rokkitt', serif  !important;
+   
+}
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar > .logo > .navbar-brand .logo-img
+{
+    width:20px;
+}
+.logo
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    background-color: black; 
+    padding: 0 14px !important;
+}
+ a.nav-item.nav-link.active
+{
+    color: white !important;
+    font-size:17px;
+    padding:4px 20px ;
+    letter-spacing: 1px;
+    min-height: 35px !important;
+}
+ .collapse > .navbar-nav > a.nav-item.nav-link.active:hover
+{
+    color:  #E0CEB5 !important;
+}
+.navbar-toggler img
+{
+    width: 25px !important;
+   
+}
+.navbar-toggler
+{
+    cursor: pointer !important;
+}
+.collapse 
+{
+    justify-content: space-around;
+}
+.jumbotron > .container > .display-15
+{
+   
+    margin: 18px;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+.jumbotron, .container
+{
+    display: flex !important;
+    padding: 30px !important;
+    flex-direction: column;
+    background-color: white !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.jumbotron > .container > .display-15 + .lead em
+{
+    font-size: 18px !important;
+}
+.Fairytale-Weddings
+{
+    border-bottom: 3px solid #E0CEB5;
+    margin: 40px 0 !important;
+}
+.contrainer, .card-deck
+{
+    display: flex !important;
+    flex-wrap: wrap; 
+    margin:20px  ;
+    min-width: 250px !important;
+    justify-content: center !important;
+}
+.card-deck
+{
+     
+    margin:  auto !important;
+} 
+.card
+{
+   
+    margin: 0 10px;
+    border: 0 !important;
+    
+
+}
+.card  > .card-img-top + .card-body > .card-title
+{
+    
+    color:#E0CEB5;
+    font-size: 26px;
+   
+}
+.card-title
+{
+    margin: 32px !important;
+    color: #b29c7e;
+    font-family: 'Lobster', cursive;
+}
+.card > .card-body > .card-title em
+{
+    font-family: 'Fugaz One', cursive;
+}
+.card > .card-body > .card-title + .img-title
+{
+    border-top: 2px solid #bfbfbf !important;
+    /* border-bottom: 2px solid #bfbfbf !important; */
+    display: inline-block;
+    padding:12px ;
+    color: #c9c9c9;
+    
+}
+.main-img > .card-body
+{
+    margin: 0 ;
+    padding: 0 !important;
+    font-family: 'Rokkitt', serif;
+}
+.card.main-img 
+{
+    margin: 0 !important;
+}
+#slide-2 > .bcg 
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+    position: relative;
+}
+.dreambig-container > .dreambig-container-column > .dreambig-container-heading  
+{
+    color: #E0CEB5;
+    font-size:40px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.dreambig-container
+{
+    margin: 50px 0px 41px ;
+}
+.card > .card-body > .card-title + .author
+{
+    color: #c9c9c9 ;
+    border: 0 !important;
+    padding: 0 !important;
+}
+ .discover-events
+{
+    display: flex !important;
+    justify-content: space-around !important;
+    color: #bfbfbf;
+     flex-wrap: wrap !important;
+}
+.discover-container > .card-deck
+{
+    display: flex !important;
+    justify-content: space-between !important;
+    color: #bfbfbf;
+    /* flex-wrap: wrap !important; */
+    margin: 30px;
+}
+.discover-container > .discover-more
+{
+    font-size: 35px ;
+}
+.events-img
+{
+    width: 255px;
+    height: 262px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 188px;
+    min-width: 200px !important;
+    max-width:400px !important;
+    margin: 33px 18px;
+}
+
+.events-name-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.events-name
+{
+    color: #adabab !important;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 282px;
+    font-family: 'Great Vibes', cursive;
+}
+a:link
+{
+    text-decoration: none !important;
+}
+
+.breadcrumb, .follow-us
+{
+    justify-content: center;
+    margin: 0 !important;
+    background-color: black !important;
+    margin-top: 10px;
+    border-radius: 0 !important;
+    padding-top: 10px !important;
+    
+    
+}
+.breadcrumb > .breadcrumb-item > a
+{
+    color: #fff !important;
+    font-size: 15px;
+}
+nav > .breadcrumb > .breadcrumb-item a:hover
+{
+    text-decoration:none; 
+    color: #E0CEB5 !important;
+}
+.logo
+{
+   width: 23px;
+   margin: 0 6px;
+}
+p
+{
+    font-size: 18px;
+    color:#222;
+}
+.sarah-haywood a
+{
+    color: #b29c7e ;
+}
+.sarah-haywood a:hover
+{
+    color: #b29c7e ;
+}
+
+
+
+  
+

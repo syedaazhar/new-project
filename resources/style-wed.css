@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     text-align: center !important;
-    font-family: 'Bauer Bodoni W01 Roman' !important;
+    font-family: 'Rokkitt', serif  !important;
    
 }
 header
@@ -37,9 +37,14 @@ header
 {
     color:  #E0CEB5 !important;
 }
-.navbar-toggler-icon
+.navbar-toggler img
 {
-    color: white !important;
+    width: 25px !important;
+   
+}
+.navbar-toggler
+{
+    cursor: pointer !important;
 }
 .collapse 
 {
@@ -186,11 +191,15 @@ header
 }
 .events-name
 {
-    color: #adabab;
+    color: #adabab !important;
     font-size: 18px;
     text-align: center;
     margin-top: 282px;
     font-family: 'Great Vibes', cursive;
+}
+a:link
+{
+    text-decoration: none !important;
 }
 
 .breadcrumb, .follow-us

@@ -1,6 +1,7 @@
 body
 {
     margin: 0;
+    font-family: 'Rokkitt', serif  !important;
 }
 header
 {
@@ -23,12 +24,10 @@ main
     background-position: center;
     background-size: cover;
     background-color: black;
-    
 }
 .navbar
 {
     background-color: black; 
-   
 }
  a.nav-item.nav-link.active
 {
@@ -38,9 +37,12 @@ main
 {
     color:  #E0CEB5 !important;
 }
-.navbar-toggler-icon
+.navbar-toggler img
 {
-    color: white !important;
+   width: 23px;
+   margin: 0 -38px;
+   cursor: pointer;
+
 }
 .collapse 
 {
@@ -86,18 +88,27 @@ main
     cursor: pointer;
     text-align: center !important;
 }  
-.card-deck > .card.img-fluid strong
+.card-deck > a .card.img-fluid strong
 {
-    margin-top: 116px;
+    margin-top:166px;
     text-align: center;
     font-size: 30px;
     color: white;
     display: none;
+    text-decoration: none !important;
+    text-shadow: 2px 2px 4px #000000;
+    
    
 }   
-.card-deck > .card.img-fluid:hover strong
+.card-deck > a .card.img-fluid:hover strong
 {
     display: inline;
+    text-align: center !important;
+    
+}
+.card-deck > a:link
+{
+    text-decoration: none !important;
 }
 .card-deck > .card.img-fluid:hover 
 {
@@ -138,11 +149,15 @@ main
      color: #fff;
      font-size: 17px;
 }
-.breadcrumb
+.breadcrumb, .follow-us
 {
     justify-content: center;
     margin: 0 !important;
     background-color: black !important;
+    margin-top: 10px;
+    border-radius: 0 !important;
+    padding-top: 10px !important;
+    
     
 }
 .breadcrumb > .breadcrumb-item > a
@@ -155,4 +170,7 @@ nav > .breadcrumb > .breadcrumb-item a:hover
     text-decoration:none; 
     color: #E0CEB5 !important;
 }
-
+.logo
+{
+   width: 23px;
+   margin: 0 6px;
