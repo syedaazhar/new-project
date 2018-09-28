@@ -85,10 +85,9 @@ main
     background-position: center;
     background-size: cover;
     margin: 16px;
-    cursor: pointer;
     text-align: center !important;
 }  
-.card-deck > a .card.img-fluid strong
+.card-deck > .card.img-fluid strong
 {
     margin-top:166px;
     text-align: center;
@@ -100,7 +99,7 @@ main
     
    
 }   
-.card-deck > a .card.img-fluid:hover strong
+.card-deck > .card.img-fluid:hover strong
 {
     display: inline;
     text-align: center !important;
@@ -174,3 +173,5 @@ nav > .breadcrumb > .breadcrumb-item a:hover
 {
    width: 23px;
    margin: 0 6px;
+}
+
